@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+	<!-- bearded troll -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_BeardedTroll</li>
+				</value>
+	</Operation>
+	
+	<!-- barogoth -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Barog</li>
+				</value>
+	</Operation>
+	
+	<!-- Black scribe -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_BlackScribe</li>
+				</value>
+	</Operation>
+
+	<!-- crestel -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Crestel</li>
+				</value>
+	</Operation>
+
+	<!-- dwarven muffton -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_DwarvenMuffton</li>
+				</value>
+	</Operation>
+
+	<!-- giant snaptoad -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Snaptoad</li>
+				</value>
+	</Operation>
+
+	<!-- goldilox -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Goldilox</li>
+				</value>
+	</Operation>	
+
+	<!-- ironcasket beetle -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_IroncasketBeetle</li>
+				</value>
+	</Operation>
+
+	<!-- karabal -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Karabal</li>
+				</value>
+	</Operation>
+
+	<!-- leviathan -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_LeviathanCrab</li>
+				</value>
+	</Operation>
+
+	<!-- northern drog -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_NorthernDrog</li>
+				</value>
+	</Operation>								
+
+	<!-- forest owlcat -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_ForestOwlcat</li>
+				</value>
+	</Operation>
+
+	<!-- arctic owlcat -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_ArcticOwlcat</li>
+				</value>
+	</Operation>	
+
+	<!-- phrak -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Phrak</li>
+				</value>
+	</Operation>	
+
+	<!-- imperial redhound -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_ImperialRedhound</li>
+				</value>
+	</Operation>
+
+	<!-- red-horned larpah -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_RedhornedLarpah</li>
+				</value>
+	</Operation>
+
+	<!-- pilgrim -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Pilgrim</li>
+				</value>
+	</Operation>		
+
+	<!-- rock troll -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_RockTroll</li>
+				</value>
+	</Operation>
+
+	<!-- silver mole -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_SilverMole</li>
+				</value>
+	</Operation>
+
+	<!-- taraal -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_Taraal</li>
+				</value>
+	</Operation>
+
+	<!-- snow taraal -->
+	<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+				]/recipeUsers</xpath>
+				<value>
+					<li>DA_SnowTaraal</li>
+				</value>
+	</Operation>
+
+</Patch>
